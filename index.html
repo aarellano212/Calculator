@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <link rel="stylesheet" href="style.css">
+    <title>Calculator</title>
+    <style>
+        .hidden{
+            display: none;
+        }
+    </style>
+</head>
+<body>
+<div class="container">
+    <div class="content">
+        <h1>5-function Calculator</h1>
+        <div class="row">
+            <div>
+                <label for="num1">Number-One</label>
+                <input type="text" id="num1" name="number_1" style="width: 100px">
+            </div>
+            <div>
+                <label for="num2">Number-Two </label>
+                <input type="text" id="num2" name="number_2" style="width: 100px">
+            </div>
+        </div>
+        <div class="row">
+            <label for="operation">Click An Operation</label>
+            <select name="operation" id="operation">
+                <option value="add"> + </option>
+                <option value="subtract"> - </option>
+                <option value="multiply"> * </option>
+                <option value="divide"> / </option>
+                <option value="modulus"> % </option>
+            </select>
+        </div>
+    </div>
+</div>
+</body>
+</html>
